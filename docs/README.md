@@ -4,13 +4,20 @@
 >
 > 基于最新的依赖进行构建。
 >
-> [线上地址](http://panjiachen.github.io/vue-admin-template)
+> [线上地址:https://vsa.yoouu.cn/](https://vsa.yoouu.cn/)
 
 ## 个人改造
 
 > 本项目基于[vue-admin-template](https://github.com/PanJiaChen/vue-admin-template)
 >
-> 个人基于`4.2.1`版本进行改造，以后进行独立维护，改造目标为更加适合快速开发，去除中小团队接触不到，或者用的比较少的功能，例如`Mock`，`Test`模块，同时对依赖进行升级，跟随最新的依赖。
+> 个人基于`4.2.1`版本进行改造，以后进行独立维护，
+>
+> 改造目标
+>
+> - 更加适合快速开发，去除中小团队接触不到，或者用的比较少的功能
+> - 拉下代码就能上手业务开发
+> - 不断完成文档添加前端解决方案
+> - 删除`Mock`，`Test`模块，同时对依赖进行升级，跟随最新的依赖。
 
 
 
@@ -28,45 +35,40 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/PanJiaChen/vue-admin-template.git
+git clone https://github.com/SunSeekerX/vue-simple-admin.git
 
 # 进入项目目录
-cd vue-admin-template
+cd vue-simple-admin
 
 # 安装依赖
-npm install
-
-# 建议不要直接使用 cnpm 安装以来，会有各种诡异的 bug。可以通过如下操作解决 npm 下载速度慢的问题
-npm install --registry=https://registry.npm.taobao.org
+yarn
 
 # 启动服务
-npm run dev
+yarn serve
 ```
 
-浏览器访问 [http://localhost:9528](http://localhost:9528)
+浏览器访问 [http://localhost:9530/](http://localhost:9530/)
 
 ## 发布
 
 ```bash
 # 构建生产环境
-npm run build:prod
+yarn build:prod
 
 # 预览发布环境效果
-npm run preview
+yarn preview
 
 # 预览发布环境效果 + 静态资源分析
-npm run preview -- --report
+yarn preview -- --report
 
 # 代码格式检查
-npm run lint
+yarn lint
 
 # 代码格式检查并自动修复
-npm run lint -- --fix
+yarn lint -- --fix
 ```
 
 ## 原作者信息
 
-> 就是大名鼎鼎的`vue-element-admin`的作者
->
-> 地址：[PanJiaChen](https://github.com/PanJiaChen)
+> 地址：[PanJiaChen - vue-element-admin](https://github.com/PanJiaChen)
 
